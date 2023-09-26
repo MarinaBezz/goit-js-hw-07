@@ -49,11 +49,6 @@ function secectImageOnClick(evt) {
     }
   );
 
-  window.addEventListener("keydown", justForFun);
-  function justForFun(event) {
-    console.log(event);
-  }
-
   instance.show();
 
   function onEscKeyPress(evt) {
